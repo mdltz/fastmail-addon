@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+
+    "name": "Fastmail",
+    "description": "Just a quick shortcut to open Fastmail.",
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+
+    "icons": {
+        "64": "icon.jpg"
+    },
+
+    "browser_action": {
+        "default_title": "Fastmail",
+        "default_icon": "icon.jpg"
+    }
+}
